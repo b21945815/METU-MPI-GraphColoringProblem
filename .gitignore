@@ -1,0 +1,102 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
+.vscode/
+.vs/
+_ReSharper*/
+**/*.vcxproj.user
+**/*.vcxproj.filters
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+CMakeLists.txt.user
+build/
+
+# Compiled binary files
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.log
+*.pch
+*.aps
+*.idb
+*.sbr
+*.tlog
+*.lastbuildstate
+*.ipdb
+*.iobj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Visual Studio database files
+*.sdf
+*.opensdf
+*.cachefile
+
+# Visual Studio Code workspace
+*.code-workspace
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Test Results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.testsettings
+*.runsettings
+*.coveragexml
+
+# Backup & temp files
+*.tmp
+*.bak
+*.old
+*.orig
+*.swp
+
+# Other files
+*.tlog
+*.pyc
+*.class
+*.DS_Store
+*.Thumbs.db
+
+# Generated files
+*.ipch
+*.iobj
+*.obj
+*.log
+
+# Project and IDE specific files
+.idea/
+*.VC.db
+*.VC.VC.opendb
