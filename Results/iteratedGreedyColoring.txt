@@ -1,0 +1,29 @@
+Sequential Algorithm Started...
+Graph Size: 120 vertices
+Total Colors Used: 9
+Execution Time: 9.441 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 450 vertices
+Total Colors Used: 31
+Execution Time: 102.416 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 900 vertices
+Total Colors Used: 213
+Execution Time: 1568.489 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 2000 vertices
+Total Colors Used: 226
+Execution Time: 4923.376 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 4000 vertices
+Total Colors Used: 402
+Execution Time: 40394.946 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Sequential Algorithm Finished!
+======================================
+
