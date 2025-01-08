@@ -1,27 +1,27 @@
 Algorithm 2 Parallel Started ...
 Graph Size: 120 vertices
 Total Colors Used: 9
-Execution Time: 5.007 ms
+Execution Time: 5.890 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 450 vertices
 Total Colors Used: 34
-Execution Time: 98.800 ms
+Execution Time: 99.738 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 900 vertices
 Total Colors Used: 257
-Execution Time: 1968.636 ms
+Execution Time: 2003.362 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 2000 vertices
 Total Colors Used: 239
-Execution Time: 6343.380 ms
+Execution Time: 6090.445 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 4000 vertices
 Total Colors Used: 431
-Execution Time: 25857.003 ms
+Execution Time: 13956.194 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Algorithm 2 Parallel Finished!

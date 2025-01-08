@@ -78,7 +78,6 @@ void iteratedGreedyColoring(vector<vector<int>>& graph) {
     vector<int> colors(n);
     int ColNum = greedyColoring(graph, colors);
     // cout << "Phase 1 (Greedy Coloring) - Number of Colors: " << ColNum << endl;
-
     int maxIterations = 15;
     int noImprovementThreshold = 3;
     int iterationsWithoutImprovement = 0;

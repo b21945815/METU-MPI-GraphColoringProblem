@@ -1,29 +1,112 @@
 Sequential Algorithm Started...
 Graph Size: 120 vertices
 Total Colors Used: 9
-Execution Time: 9.441 ms
+Execution Time: 9.610 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 450 vertices
 Total Colors Used: 31
-Execution Time: 102.416 ms
+Execution Time: 100.862 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 900 vertices
 Total Colors Used: 213
-Execution Time: 1568.489 ms
+Execution Time: 1564.993 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 2000 vertices
 Total Colors Used: 226
-Execution Time: 4923.376 ms
+Execution Time: 9184.912 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 4000 vertices
 Total Colors Used: 402
-Execution Time: 40394.946 ms
+Execution Time: 38032.554 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Sequential Algorithm Finished!
 ======================================
-
+Sequential Algorithm Started...
+Graph Size: 120 vertices
+Total Colors Used: 9
+Execution Time: 9.726 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 450 vertices
+Total Colors Used: 31
+Execution Time: 97.827 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 900 vertices
+Total Colors Used: 213
+Execution Time: 1498.916 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 2000 vertices
+Total Colors Used: 226
+Execution Time: 4827.407 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 4000 vertices
+Total Colors Used: 402
+Execution Time: 19186.088 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Sequential Algorithm Finished!
+======================================
+Sequential Algorithm Started...
+Graph Size: 120 vertices
+Total Colors Used: 9
+Execution Time: 9.602 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 450 vertices
+Total Colors Used: 31
+Execution Time: 99.871 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 900 vertices
+Total Colors Used: 213
+Execution Time: 1538.313 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 2000 vertices
+Total Colors Used: 226
+Execution Time: 9181.538 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 4000 vertices
+Total Colors Used: 402
+Execution Time: 35591.702 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Sequential Algorithm Finished!
+======================================
+Sequential Algorithm Started...
+Graph Size: 120 vertices
+Total Colors Used: 9
+Execution Time: 10.365 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 450 vertices
+Total Colors Used: 31
+Execution Time: 100.529 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 900 vertices
+Total Colors Used: 213
+Execution Time: 1532.720 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 2000 vertices
+Total Colors Used: 226
+Execution Time: 4910.646 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Graph Size: 4000 vertices
+Total Colors Used: 402
+Execution Time: 19126.605 ms
+No conflicts detected in the coloring.
+--------------------------------------
+Sequential Algorithm Finished!
+======================================
