@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     if (rank == 0) {
-        //runSequentialAlgorithm();
+        runSequentialAlgorithm();
     }
     MPI_Barrier(MPI_COMM_WORLD);
     Algorithm1Basic::runAlgorithm1Basic();

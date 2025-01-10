@@ -1,27 +1,27 @@
 Sequential Algorithm Started...
 Graph Size: 120 vertices
 Total Colors Used: 9
-Execution Time: 9.610 ms
+Execution Time: 9.417 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 450 vertices
 Total Colors Used: 31
-Execution Time: 100.862 ms
+Execution Time: 99.366 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 900 vertices
 Total Colors Used: 213
-Execution Time: 1564.993 ms
+Execution Time: 1522.405 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 2000 vertices
 Total Colors Used: 226
-Execution Time: 9184.912 ms
+Execution Time: 4953.247 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 4000 vertices
 Total Colors Used: 402
-Execution Time: 38032.554 ms
+Execution Time: 19576.348 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Sequential Algorithm Finished!
@@ -29,27 +29,27 @@ Sequential Algorithm Finished!
 Sequential Algorithm Started...
 Graph Size: 120 vertices
 Total Colors Used: 9
-Execution Time: 9.726 ms
+Execution Time: 9.418 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 450 vertices
 Total Colors Used: 31
-Execution Time: 97.827 ms
+Execution Time: 101.305 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 900 vertices
 Total Colors Used: 213
-Execution Time: 1498.916 ms
+Execution Time: 1535.362 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 2000 vertices
 Total Colors Used: 226
-Execution Time: 4827.407 ms
+Execution Time: 4927.364 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 4000 vertices
 Total Colors Used: 402
-Execution Time: 19186.088 ms
+Execution Time: 19388.372 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Sequential Algorithm Finished!
@@ -57,27 +57,27 @@ Sequential Algorithm Finished!
 Sequential Algorithm Started...
 Graph Size: 120 vertices
 Total Colors Used: 9
-Execution Time: 9.602 ms
+Execution Time: 9.516 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 450 vertices
 Total Colors Used: 31
-Execution Time: 99.871 ms
+Execution Time: 98.855 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 900 vertices
 Total Colors Used: 213
-Execution Time: 1538.313 ms
+Execution Time: 1609.926 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 2000 vertices
 Total Colors Used: 226
-Execution Time: 9181.538 ms
+Execution Time: 8638.336 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 4000 vertices
 Total Colors Used: 402
-Execution Time: 35591.702 ms
+Execution Time: 35050.287 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Sequential Algorithm Finished!
@@ -85,27 +85,27 @@ Sequential Algorithm Finished!
 Sequential Algorithm Started...
 Graph Size: 120 vertices
 Total Colors Used: 9
-Execution Time: 10.365 ms
+Execution Time: 9.651 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 450 vertices
 Total Colors Used: 31
-Execution Time: 100.529 ms
+Execution Time: 98.978 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 900 vertices
 Total Colors Used: 213
-Execution Time: 1532.720 ms
+Execution Time: 1510.332 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 2000 vertices
 Total Colors Used: 226
-Execution Time: 4910.646 ms
+Execution Time: 4850.716 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 4000 vertices
 Total Colors Used: 402
-Execution Time: 19126.605 ms
+Execution Time: 19506.899 ms
 No conflicts detected in the coloring.
 --------------------------------------
 Sequential Algorithm Finished!
