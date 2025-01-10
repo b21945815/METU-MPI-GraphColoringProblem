@@ -78,26 +78,27 @@ void iteratedGreedyColoring(vector<vector<int>>& graph) {
     vector<int> colors(n);
     int ColNum = greedyColoring(graph, colors);
     // cout << "Phase 1 (Greedy Coloring) - Number of Colors: " << ColNum << endl;
-    int maxIterations = 15;
-    int noImprovementThreshold = 3;
+    int maxIterations = 200;
+    int noImprovementThreshold = 5;
     int iterationsWithoutImprovement = 0;
     int lastColNum = ColNum;
 
-    for (int iter = 0; iter < maxIterations; ++iter) {
+    for (int iteration = 0; iteration < maxIterations; ++iteration) {
         reverseColorClassOrdering(graph, colors);
-        int improvedColNum = greedyColoring(graph, colors);
-        // cout << "Iteration " << iter + 1 << " - Number of Colors: " << improvedColNum << endl;
 
-        if (improvedColNum < lastColNum) {
-            iterationsWithoutImprovement = 0;
-            lastColNum = improvedColNum;
+        int currentColNum = *max_element(colors.begin(), colors.end()) + 1;
+
+ 
+        if (currentColNum < lastColNum) {
+            lastColNum = currentColNum;
+            iterationsWithoutImprovement = 0; 
         }
         else {
-            iterationsWithoutImprovement++;
+            ++iterationsWithoutImprovement; 
         }
 
         if (iterationsWithoutImprovement >= noImprovementThreshold) {
-            // cout << "No improvement in the last " << noImprovementThreshold << " iterations. Stopping." << endl;
+            cout << "Early stopping triggered after " << iteration + 1 << " iterations." << endl;
             break;
         }
     }

@@ -30,28 +30,28 @@ int main(int argc, char** argv) {
         runSequentialAlgorithm();
     }
     MPI_Barrier(MPI_COMM_WORLD);
-    Algorithm1Basic::runAlgorithm1Basic();
+    //Algorithm1Basic::runAlgorithm1Basic();
 
     MPI_Barrier(MPI_COMM_WORLD);
-    Algorithm2Basic::runAlgorithm2Basic();
+    //Algorithm2Basic::runAlgorithm2Basic();
 
     MPI_Barrier(MPI_COMM_WORLD);
-    Algorithm3::runAlgorithm3();
+    //Algorithm3::runAlgorithm3();
 
     MPI_Barrier(MPI_COMM_WORLD);
-    Algorithm2Parallel::runAlgorithm2Parallel();
+    //Algorithm2Parallel::runAlgorithm2Parallel();
 
     MPI_Barrier(MPI_COMM_WORLD);
-    Algorithm2HalfAsynchronous::runAlgorithm2HalfAsynchronous();
+    //Algorithm2HalfAsynchronous::runAlgorithm2HalfAsynchronous();
 
     MPI_Barrier(MPI_COMM_WORLD);
-    Algorithm2Asynchronous::runAlgorithm2Asynchronous();
+    //Algorithm2Asynchronous::runAlgorithm2Asynchronous();
 
     MPI_Barrier(MPI_COMM_WORLD);
-    Algorithm1HalfAsynchronous::runAlgorithm1HalfAsynchronous();
+    //Algorithm1HalfAsynchronous::runAlgorithm1HalfAsynchronous();
 
     MPI_Barrier(MPI_COMM_WORLD);
-    Algorithm1Asynchronous::runAlgorithm1Asynchronous();
+    //Algorithm1Asynchronous::runAlgorithm1Asynchronous();
 
     MPI_Barrier(MPI_COMM_WORLD);
     MPI_Finalize();
