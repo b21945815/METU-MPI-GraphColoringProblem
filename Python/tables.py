@@ -13,10 +13,10 @@ graph3Time = 8271.475
 graph4Time = 12004.907
 graph5Time = 45884.307
 data.append(["Sequential Algorithm", 120, 9, graph1Time, 1276, 1, 1, 1, 1])
-data.append(["Sequential Algorithm", 450, 31, graph2Time, 16750, 1, 1, 1, 1])
-data.append(["Sequential Algorithm", 900, 213, graph3Time, 307350, 1, 1, 1, 1,])
-data.append(["Sequential Algorithm", 2000, 226, graph4Time, 999836, 1, 1, 1, 1])
-data.append(["Sequential Algorithm", 4000, 402, graph5Time, 4000268, 1, 1, 1, 1])
+data.append(["Sequential Algorithm", 450, 27, graph2Time, 16750, 1, 1, 1, 1])
+data.append(["Sequential Algorithm", 900, 124, graph3Time, 307350, 1, 1, 1, 1,])
+data.append(["Sequential Algorithm", 2000, 212, graph4Time, 999836, 1, 1, 1, 1])
+data.append(["Sequential Algorithm", 4000, 387, graph5Time, 4000268, 1, 1, 1, 1])
 
 
 # Algorithm 3 data (20 process)
@@ -401,9 +401,9 @@ plt.savefig(output_path, dpi=300, bbox_inches='tight')
 filtered_data_for_plot = df[df["Vertices Number"] == 4000]
 
 sequential_data = pd.DataFrame([
-    ["Sequential Algorithm", 4000, 402, graph5Time, 4000268, 5, 1, 1, 1],
-    ["Sequential Algorithm", 4000, 402, graph5Time, 4000268, 10, 1, 1, 1],
-    ["Sequential Algorithm", 4000, 402, graph5Time, 4000268, 20, 1, 1, 1]
+    ["Sequential Algorithm", 4000, 387, graph5Time, 4000268, 5, 1, 1, 1],
+    ["Sequential Algorithm", 4000, 387, graph5Time, 4000268, 10, 1, 1, 1],
+    ["Sequential Algorithm", 4000, 387, graph5Time, 4000268, 20, 1, 1, 1]
 ], columns=df.columns)
 
 filtered_data_for_plot = pd.concat([filtered_data_for_plot, sequential_data], ignore_index=True)
