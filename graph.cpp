@@ -34,7 +34,13 @@ std::vector<std::vector<int>> readGraph(const string& filename) {
             char temp;
             int u, v;
             ss >> temp >> u >> v;
-     
+            // I take the graphs as symmetrical
+            // if there is a connection from one vertex to another in coloring problems, they cannot be the same color.
+            // Therefore, it does not cause a wrong result
+            // It causes extra work for small graphs that I used
+            // Because they have two way connections in the file
+            // I noticed this too late and since it was only for small graphs I didn't try the results again to fix it.
+            // I should used set etc.
             graph[u - 1].push_back(v - 1);
             graph[v - 1].push_back(u - 1);
         }
@@ -99,7 +105,13 @@ std::vector<std::vector<int>> readMtxGraph(const string& filename) {
             stringstream ss(line);
             int u, v;
             ss >> u >> v;
-
+            // I take the graphs as symmetrical
+            // if there is a connection from one vertex to another in coloring problems, they cannot be the same color.
+            // Therefore, it does not cause a wrong result
+            // It causes extra work for small graphs that I used
+            // Because they have two way connections in the file
+            // I noticed this too late and since it was only for small graphs I didn't try the results again to fix it.
+            // I should used set etc.
             graph[u - 1].push_back(v - 1);
             graph[v - 1].push_back(u - 1);
         }
