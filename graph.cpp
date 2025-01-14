@@ -17,6 +17,7 @@ std::vector<std::vector<int>> readGraph(const string& filename) {
 
     string line;
     int numVertices = 0, numEdges = 0;
+    vector<set<int>> graphSets;
     vector<vector<int>> graph;
 
     while (getline(infile, line)) {
@@ -27,7 +28,7 @@ std::vector<std::vector<int>> readGraph(const string& filename) {
             stringstream ss(line);
             string temp;
             ss >> temp >> temp >> numVertices >> numEdges;
-            graph.resize(numVertices);
+            graphSets.resize(numVertices);
         }
         else if (line[0] == 'e') {
             stringstream ss(line);
@@ -37,13 +38,14 @@ std::vector<std::vector<int>> readGraph(const string& filename) {
             // I take the graphs as symmetrical
             // if there is a connection from one vertex to another in coloring problems, they cannot be the same color.
             // Therefore, it does not cause a wrong result
-            // It causes extra work for small graphs that I used
-            // Because they have two way connections in the file
-            // I noticed this too late and since it was only for small graphs I didn't try the results again to fix it.
-            // I should used set etc.
-            graph[u - 1].push_back(v - 1);
-            graph[v - 1].push_back(u - 1);
+            graphSets[u - 1].insert(v - 1);
+            graphSets[v - 1].insert(u - 1);
         }
+    }
+
+    graph.resize(numVertices);
+    for (int i = 0; i < numVertices; ++i) {
+        graph[i].assign(graphSets[i].begin(), graphSets[i].end());
     }
 
     infile.close();
@@ -89,6 +91,7 @@ std::vector<std::vector<int>> readMtxGraph(const string& filename) {
 
     string line;
     int numVertices = 0, numEdges = 0;
+    vector<set<int>> graphSets;
     vector<vector<int>> graph;
 
     while (getline(infile, line)) {
@@ -99,7 +102,7 @@ std::vector<std::vector<int>> readMtxGraph(const string& filename) {
         stringstream ss(line);
         ss >> numVertices >> numVertices >> numEdges;
 
-        graph.resize(numVertices); 
+        graphSets.resize(numVertices);
 
         while (getline(infile, line)) {
             stringstream ss(line);
@@ -108,13 +111,14 @@ std::vector<std::vector<int>> readMtxGraph(const string& filename) {
             // I take the graphs as symmetrical
             // if there is a connection from one vertex to another in coloring problems, they cannot be the same color.
             // Therefore, it does not cause a wrong result
-            // It causes extra work for small graphs that I used
-            // Because they have two way connections in the file
-            // I noticed this too late and since it was only for small graphs I didn't try the results again to fix it.
-            // I should used set etc.
-            graph[u - 1].push_back(v - 1);
-            graph[v - 1].push_back(u - 1);
+            graphSets[u - 1].insert(v - 1);
+            graphSets[v - 1].insert(u - 1);
         }
+    }
+
+    graph.resize(numVertices);
+    for (int i = 0; i < numVertices; ++i) {
+        graph[i].assign(graphSets[i].begin(), graphSets[i].end());
     }
 
     infile.close();

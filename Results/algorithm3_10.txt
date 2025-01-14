@@ -1,27 +1,27 @@
 Algorithm 3 Started ...
 Graph Size: 120 vertices
 Total Colors Used: 10
-Execution Time: 20.700 ms
+Execution Time: 0.03440 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 450 vertices
 Total Colors Used: 33
-Execution Time: 383.543 ms
+Execution Time: 0.62959 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 900 vertices
 Total Colors Used: 223
-Execution Time: 7877.266 ms
+Execution Time: 13.70427 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 2000 vertices
 Total Colors Used: 235
-Execution Time: 26453.797 ms
+Execution Time: 45.21749 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 4000 vertices
 Total Colors Used: 427
-Execution Time: 108753.795 ms
+Execution Time: 178.60239 s
 No conflicts detected in the coloring.
 --------------------------------------
 Algorithm 3 Finished!

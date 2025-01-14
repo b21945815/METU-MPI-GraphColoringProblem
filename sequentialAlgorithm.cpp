@@ -115,7 +115,7 @@ void iteratedGreedyColoring(vector<vector<int>>& graph) {
     if (outfile.is_open()) {
         outfile << "Graph Size: " << n << " vertices" << endl;
         outfile << "Total Colors Used: " << lastColNum << endl;
-        outfile << "Execution Time: " << fixed << setprecision(3) << duration.count() / 1000.0 << " ms" << endl;
+        outfile << "Execution Time: " << fixed << setprecision(5) << duration.count() / 1000000.0 << " s" << endl;
 
         bool hasConflict = sequentialDetectConflicts(graph, colors);
         if (hasConflict) {

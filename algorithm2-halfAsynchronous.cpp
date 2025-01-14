@@ -5,14 +5,12 @@
 #include <climits>
 #include <set> 
 #include <numeric>
-#include <chrono>
 #include <iomanip>
 #include "graph.h"         
 #include "algorithm2-halfAsynchronous.h"    
 #include <fstream>
 
 using namespace std;
-using namespace chrono;
 using namespace Algorithm2HalfAsynchronous;
 
 
@@ -127,9 +125,9 @@ void Algorithm2HalfAsynchronous::algorithm2HalfAsynchronous(vector<vector<int>>&
     int rank, size;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
-    high_resolution_clock::time_point start;
+    double start_time, end_time;
     if (rank == 0) {
-        start = high_resolution_clock::now();
+        start_time = MPI_Wtime();
     }
     int n = graph.size();
     int remainder = n % size;
@@ -161,15 +159,15 @@ void Algorithm2HalfAsynchronous::algorithm2HalfAsynchronous(vector<vector<int>>&
 
     MPI_Barrier(MPI_COMM_WORLD);
     if (rank == 0) {
-        auto end = high_resolution_clock::now();
-        auto duration = duration_cast<microseconds>(end - start);
+        end_time = MPI_Wtime();
+        double duration = end_time - start_time;
         int numColors = countUniqueColors(colors);
         std::string filename = "C:\\Users\\fatih\\source\\repos\\TRIAL_1\\Results\\algorithm2HalfAsynchronous_" + std::to_string(size) + ".txt";
         std::ofstream outfile(filename, std::ios::app);
         if (outfile.is_open()) {
             outfile << "Graph Size: " << n << " vertices" << endl;
             outfile << "Total Colors Used: " << numColors << endl;
-            outfile << "Execution Time: " << fixed << setprecision(3) << duration.count() / 1000.0 << " ms" << endl;
+            outfile << "Execution Time: " << fixed << setprecision(5) << duration << " s" << endl;
 
             bool hasConflict = sequentialDetectConflicts(graph, colors);
             if (hasConflict) {
