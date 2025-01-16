@@ -1,27 +1,27 @@
 Algorithm 2 Half Asynchronous Started ...
 Graph Size: 120 vertices
 Total Colors Used: 10
-Execution Time: 0.00706 s
+Execution Time: 0.00099 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 450 vertices
 Total Colors Used: 36
-Execution Time: 0.05167 s
+Execution Time: 0.02854 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 900 vertices
 Total Colors Used: 256
-Execution Time: 1.03907 s
+Execution Time: 0.58485 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 2000 vertices
 Total Colors Used: 239
-Execution Time: 4.03696 s
+Execution Time: 2.18218 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 4000 vertices
 Total Colors Used: 427
-Execution Time: 15.85660 s
+Execution Time: 9.37863 s
 No conflicts detected in the coloring.
 --------------------------------------
 Algorithm 2 Half Asynchronous Finished!

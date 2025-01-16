@@ -1,27 +1,27 @@
 Algorithm 1 Basic Started ...
 Graph Size: 120 vertices
 Total Colors Used: 9
-Execution Time: 0.00134 s
+Execution Time: 0.00096 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 450 vertices
 Total Colors Used: 31
-Execution Time: 0.01549 s
+Execution Time: 0.01410 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 900 vertices
 Total Colors Used: 213
-Execution Time: 0.23703 s
+Execution Time: 0.23319 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 2000 vertices
 Total Colors Used: 226
-Execution Time: 0.75654 s
+Execution Time: 0.74761 s
 No conflicts detected in the coloring.
 --------------------------------------
 Graph Size: 4000 vertices
 Total Colors Used: 402
-Execution Time: 2.92244 s
+Execution Time: 2.87307 s
 No conflicts detected in the coloring.
 --------------------------------------
 Algorithm 1 Basic Finished!
